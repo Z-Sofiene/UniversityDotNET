@@ -1,0 +1,62 @@
+﻿@model School.Models.Student
+
+@{
+    ViewData["Title"] = "Create Student";
+}
+
+<h1>Create New Student</h1>
+<h4>Enter Student Details</h4>
+<hr />
+
+<div class="row">
+    <div class="col-md-8 mx-auto">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-4"></div>
+
+            <!-- Student Name -->
+            <div class="form-group">
+                <label asp-for="StudentName" class="control-label font-weight-bold"></label>
+                <input asp-for="StudentName" class="form-control" placeholder="Enter full name" required />
+                <span asp-validation-for="StudentName" class="text-danger"></span>
+            </div>
+
+            <!-- Age -->
+            <div class="form-group">
+                <label asp-for="Age" class="control-label font-weight-bold"></label>
+                <input asp-for="Age" type="number" class="form-control" placeholder="Enter age" min="1" required />
+                <span asp-validation-for="Age" class="text-danger"></span>
+            </div>
+
+            <!-- Birthdate -->
+            <div class="form-group">
+                <label asp-for="BirthDate" class="control-label font-weight-bold"></label>
+                <input asp-for="BirthDate" type="date" class="form-control" required />
+                <span asp-validation-for="BirthDate" class="text-danger"></span>
+            </div>
+
+            <!-- University Dropdown -->
+            <div class="form-group">
+                <label asp-for="UniversityID" class="control-label font-weight-bold"></label>
+                <select asp-for="UniversityID" class="form-control" asp-items="ViewBag.UniversityID" required>
+                    <option value="">Select a University</option>
+                </select>
+                <span asp-validation-for="UniversityID" class="text-danger"></span>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="form-group text-center">
+                <button type="submit" class="btn btn-success btn-lg">Create Student</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="text-center mt-4">
+    <a asp-action="Index" class="btn btn-link">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

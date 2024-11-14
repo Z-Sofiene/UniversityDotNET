@@ -1,0 +1,147 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - School</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+    <!-- Custom Styles -->
+    <style>
+        /* Navbar Styling */
+        .navbar-custom {
+            background: linear-gradient(90deg, #004a9f, #f57c00);
+            color: white;
+        }
+
+            .navbar-custom .navbar-brand,
+            .navbar-custom .nav-link {
+                color: white !important;
+            }
+
+                .navbar-custom .nav-link:hover {
+                    color: #ffeeba !important; /* Light Yellow for hover effect */
+                }
+
+        .nav-item .active {
+            background-color: rgba(255, 140, 0, 0.3); /* Light Orange Highlight */
+            border-radius: 0.25rem;
+        }
+
+        .btn-custom {
+            background-color: #f57c00;
+            color: white;
+            border: none;
+        }
+
+            .btn-custom:hover {
+                background-color: #e56700;
+            }
+
+        footer {
+            background-color: #00264d;
+            color: white;
+            padding: 1rem 0;
+        }
+
+            footer a {
+                color: #f57c00;
+                text-decoration: none;
+            }
+
+                footer a:hover {
+                    text-decoration: underline;
+                }
+
+        main {
+            min-height: 70vh;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-custom shadow">
+            <div class="container-fluid">
+                <a class="navbar-brand fw-bold" asp-area="" asp-controller="University" asp-action="Index">
+                    <i class="fa-solid fa-school"></i> School
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                       
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="University" asp-action="Index">Schools</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Student" asp-action="Index">All Students</a>
+                        </li>
+                        
+                    </ul>
+                    <ul class="navbar-nav ms-auto">
+                        @if (SignInManager.IsSignedIn(User))
+                        {
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-solid fa-user"></i> Welcome, @User.Identity.Name
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="userDropdown">
+                                    <li>
+                                        <form method="post" asp-controller="Account" asp-action="Logout" class="d-inline">
+                                            <button type="submit" class="dropdown-item"><i class="fa-solid fa-sign-out-alt"></i> Logout</button>
+                                        </form>
+                                    </li>
+                                </ul>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link btn btn-primary btn-outline-light mx-2" asp-controller="Account" asp-action="Register">
+                                    <i class="fa-solid fa-user-plus"></i> Register
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link btn btn-primary btn-outline-light mx-2" asp-controller="Account" asp-action="Login">
+                                    <i class="fa-solid fa-sign-in-alt"></i> Login
+                                </a>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="text-center mb-4">
+        <img src="~/images/im1.png" alt="SCHOOL Image" class="img-fluid rounded" style="max-width: 600px; height: auto;" />
+    </div>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    
+
+
+    <footer class="text-center mt-4">
+        <div class="container">
+            &copy; 2024 | <a asp-area="" asp-controller="Home" asp-action="#">Zaghab Sofiene</a>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

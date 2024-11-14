@@ -1,0 +1,86 @@
+﻿@model School.Models.Student
+
+@{
+    ViewData["Title"] = "Edit Student";
+}
+
+<!-- Breadcrumb Navigation -->
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="@Url.Action("Index", "Home")">Home</a></li>
+        <li class="breadcrumb-item"><a href="@Url.Action("Index", "Student")">Student List</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Edit Student</li>
+    </ol>
+</nav>
+
+<!-- Page Content -->
+<div class="container py-4">
+    <h1 class="text-center mb-4">
+        <i class="fa-solid fa-user-edit me-2"></i>Edit Student
+    </h1>
+
+    <div class="card">
+        <div class="card-header">
+            <h5 class="card-title">Student Information</h5>
+        </div>
+        <div class="card-body">
+            <form asp-action="Edit">
+                <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                <!-- Hidden Field for Student ID -->
+                <input type="hidden" asp-for="StudentId" />
+
+                <!-- Student Name -->
+                <div class="form-group mb-3">
+                    <label asp-for="StudentName" class="form-label"></label>
+                    <input asp-for="StudentName" class="form-control" />
+                    <span asp-validation-for="StudentName" class="text-danger"></span>
+                </div>
+
+                <!-- Age -->
+                <div class="form-group mb-3">
+                    <label asp-for="Age" class="form-label"></label>
+                    <input asp-for="Age" class="form-control" />
+                    <span asp-validation-for="Age" class="text-danger"></span>
+                </div>
+
+                <!-- Birth Date -->
+                <div class="form-group mb-3">
+                    <label asp-for="BirthDate" class="form-label"></label>
+                    <input asp-for="BirthDate" class="form-control" />
+                    <span asp-validation-for="BirthDate" class="text-danger"></span>
+                </div>
+
+                <!-- University ID Dropdown -->
+                <div class="form-group mb-3">
+                    <label asp-for="UniversityID" class="form-label"></label>
+                    <select asp-for="UniversityID" class="form-control" asp-items="ViewBag.UniversityID"></select>
+                    <span asp-validation-for="UniversityID" class="text-danger"></span>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fa-solid fa-save me-2"></i> Save
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Back to List Link -->
+    <div class="mt-4 text-center">
+        <a asp-action="Index" class="btn btn-secondary">
+            <i class="fa-solid fa-arrow-left"></i> Back to List
+        </a>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+
+<!-- Font Awesome Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">

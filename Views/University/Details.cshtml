@@ -1,0 +1,34 @@
+﻿@model School.Models.UniversityDetailsViewModel
+
+<div class="container py-4">
+    <div class="card shadow border-0">
+        <div class="card-header bg-primary text-white text-center">
+            <h2 class="mb-0">
+                <i class="fa-solid fa-university me-2"></i>@Model.University.UniversityName - Details
+            </h2>
+        </div>
+        <div class="card-body">
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <p><strong><i class="fa-solid fa-map-marker-alt me-2"></i>Location:</strong> @Model.University.UniversityAdress</p>
+                </div>
+                <div class="col-md-6">
+                    <p><strong><i class="fa-solid fa-user-graduate me-2"></i>Student Count:</strong> @Model.StudentCount</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <p><strong><i class="fa-solid fa-chart-bar me-2"></i>Average Age of Students:</strong> @Model.StudentAgeAverage</p>
+                </div>
+            </div>
+        </div>
+        <div class="card-footer text-center">
+            <a asp-action="Index" class="btn btn-secondary">
+                <i class="fa-solid fa-arrow-left"></i> Back to List
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- Font Awesome Integration for Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">

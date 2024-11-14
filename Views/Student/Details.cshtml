@@ -1,0 +1,75 @@
+﻿@model School.Models.Student
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<!-- Breadcrumb Navigation -->
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="@Url.Action("Index", "Home")">Home</a></li>
+        <li class="breadcrumb-item"><a href="@Url.Action("Index", "Student")">Student List</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Student Details</li>
+    </ol>
+</nav>
+
+<!-- Page Content -->
+<div class="container py-4">
+    <h1 class="text-center mb-4">
+        <i class="fa-solid fa-user-circle me-2"></i>Student Details
+    </h1>
+
+    <div class="card">
+        <div class="card-header">
+            <h5 class="card-title">Student Information</h5>
+        </div>
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-3">
+                    @Html.DisplayNameFor(model => model.StudentName)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.StudentName)
+                </dd>
+
+                <dt class="col-sm-3">
+                    @Html.DisplayNameFor(model => model.Age)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.Age)
+                </dd>
+
+                <dt class="col-sm-3">
+                    @Html.DisplayNameFor(model => model.BirthDate)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.BirthDate)
+                </dd>
+            </dl>
+        </div>
+    </div>
+
+    <!-- Action Buttons -->
+    <div class="mt-4 text-center">
+        <a asp-action="Edit" asp-route-id="@Model?.StudentId" class="btn btn-warning" data-bs-toggle="tooltip" title="Edit student details">
+            <i class="fa-solid fa-pen"></i> Edit
+        </a>
+        <a asp-action="Index" class="btn btn-secondary ms-2" data-bs-toggle="tooltip" title="Back to student list">
+            <i class="fa-solid fa-arrow-left"></i> Back to List
+        </a>
+    </div>
+</div>
+
+@section Scripts {
+    <!-- Tooltip Initialization -->
+    <script>
+        // Enable Bootstrap tooltips
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        });
+    </script>
+}
+
+<!-- Font Awesome Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
