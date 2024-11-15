@@ -3,40 +3,32 @@
   "WorkspaceRootPath": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|e:\\sof\\sofiene\\3gl\\dotnet\\projects\\school\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|solutionrelative:views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|e:\\sof\\sofiene\\3gl\\dotnet\\projects\\school\\views\\student\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|solutionrelative:views\\student\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|e:\\sof\\sofiene\\3gl\\dotnet\\projects\\school\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|solutionrelative:views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|e:\\sof\\sofiene\\3gl\\dotnet\\projects\\school\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|solutionrelative:views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|e:\\sof\\sofiene\\3gl\\dotnet\\projects\\school\\models\\university.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|solutionrelative:models\\university.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|e:\\sof\\sofiene\\3gl\\dotnet\\projects\\school\\views\\student\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|solutionrelative:views\\student\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|e:\\sof\\sofiene\\3gl\\dotnet\\projects\\school\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|e:\\sof\\sofiene\\3gl\\dotnet\\projects\\school\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|e:\\sof\\sofiene\\3gl\\dotnet\\projects\\school\\models\\repositories\\universityrepositoryimp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|solutionrelative:models\\repositories\\universityrepositoryimp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|e:\\sof\\sofiene\\3gl\\dotnet\\projects\\school\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|e:\\sof\\sofiene\\3gl\\dotnet\\projects\\school\\models\\repositories\\studentrepositoryimp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|solutionrelative:models\\repositories\\studentrepositoryimp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|e:\\sof\\sofiene\\3gl\\dotnet\\projects\\school\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|e:\\sof\\sofiene\\3gl\\dotnet\\projects\\school\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|e:\\sof\\sofiene\\3gl\\dotnet\\projects\\school\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|e:\\sof\\sofiene\\3gl\\dotnet\\projects\\school\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|solutionrelative:views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|e:\\sof\\sofiene\\3gl\\dotnet\\projects\\school\\views\\university\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -55,8 +47,32 @@
       "RelativeMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|solutionrelative:views\\university\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|e:\\sof\\sofiene\\3gl\\dotnet\\projects\\school\\views\\university\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|solutionrelative:views\\university\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|e:\\sof\\sofiene\\3gl\\dotnet\\projects\\school\\views\\student\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|solutionrelative:views\\student\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|e:\\sof\\sofiene\\3gl\\dotnet\\projects\\school\\views\\student\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|solutionrelative:views\\student\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|e:\\sof\\sofiene\\3gl\\dotnet\\projects\\school\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|solutionrelative:views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|e:\\sof\\sofiene\\3gl\\dotnet\\projects\\school\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|e:\\sof\\sofiene\\3gl\\dotnet\\projects\\school\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|e:\\sof\\sofiene\\3gl\\dotnet\\projects\\school\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|e:\\sof\\sofiene\\3gl\\dotnet\\projects\\school\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|e:\\sof\\sofiene\\3gl\\dotnet\\projects\\school\\viewmodels\\universitydetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -69,22 +85,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|e:\\sof\\sofiene\\3gl\\dotnet\\projects\\school\\models\\repositories\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|solutionrelative:models\\repositories\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|e:\\sof\\sofiene\\3gl\\dotnet\\projects\\school\\models\\repositories\\studentrepositoryimp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|solutionrelative:models\\repositories\\studentrepositoryimp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|e:\\sof\\sofiene\\3gl\\dotnet\\projects\\school\\controllers\\universitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|solutionrelative:controllers\\universitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|e:\\sof\\sofiene\\3gl\\dotnet\\projects\\school\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|e:\\sof\\sofiene\\3gl\\dotnet\\projects\\school\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{32338601-87E1-4596-A2ED-042B15F42886}|School.csproj|e:\\sof\\sofiene\\3gl\\dotnet\\projects\\school\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -118,76 +118,194 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Views\\Student\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Student\\Create.cshtml",
-              "ToolTip": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Views\\Student\\Create.cshtml",
-              "RelativeToolTip": "Views\\Student\\Create.cshtml",
-              "ViewState": "AgIAACUAAAAAAAAAAADwvz4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-02T10:10:54.145Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Views\\University\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\University\\Index.cshtml",
-              "ToolTip": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Views\\University\\Index.cshtml",
-              "RelativeToolTip": "Views\\University\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-14T22:27:18.208Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Views\\Student\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\Student\\Delete.cshtml",
-              "ToolTip": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Views\\Student\\Delete.cshtml",
-              "RelativeToolTip": "Views\\Student\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-02T10:12:06.43Z",
+              "DocumentIndex": 1,
+              "Title": "University.cs",
+              "DocumentMoniker": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Models\\University.cs",
+              "RelativeDocumentMoniker": "Models\\University.cs",
+              "ToolTip": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Models\\University.cs",
+              "RelativeToolTip": "Models\\University.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T00:17:40.937Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
+              "ToolTip": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Controllers\\StudentController.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T10:05:30.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Views\\Student\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Student\\Index.cshtml",
               "ToolTip": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Views\\Student\\Index.cshtml",
               "RelativeToolTip": "Views\\Student\\Index.cshtml",
-              "ViewState": "AgIAAFQAAAAAAAAAAADwv2sAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAUwC0AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-14T22:38:24.532Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Views\\Student\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\Delete.cshtml",
+              "ToolTip": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Views\\Student\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Student\\Delete.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T10:12:06.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Views\\University\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\University\\Edit.cshtml",
+              "ToolTip": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Views\\University\\Edit.cshtml",
+              "RelativeToolTip": "Views\\University\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T22:37:55.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Views\\University\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\University\\Details.cshtml",
+              "ToolTip": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Views\\University\\Details.cshtml",
+              "RelativeToolTip": "Views\\University\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T22:26:21.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudentRepositoryImp.cs",
+              "DocumentMoniker": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Models\\Repositories\\StudentRepositoryImp.cs",
+              "RelativeDocumentMoniker": "Models\\Repositories\\StudentRepositoryImp.cs",
+              "ToolTip": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Models\\Repositories\\StudentRepositoryImp.cs",
+              "RelativeToolTip": "Models\\Repositories\\StudentRepositoryImp.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAA9wDQAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T21:40:49.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UniversityRepositoryImp.cs",
+              "DocumentMoniker": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Models\\Repositories\\UniversityRepositoryImp.cs",
+              "RelativeDocumentMoniker": "Models\\Repositories\\UniversityRepositoryImp.cs",
+              "ToolTip": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Models\\Repositories\\UniversityRepositoryImp.cs",
+              "RelativeToolTip": "Models\\Repositories\\UniversityRepositoryImp.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T23:37:22.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Student.cs",
+              "DocumentMoniker": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Models\\Student.cs",
+              "ToolTip": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Models\\Student.cs",
+              "RelativeToolTip": "Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T21:46:21.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Views\\Student\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\Edit.cshtml",
+              "ToolTip": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Views\\Student\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Student\\Edit.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAkAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T10:11:32.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Views\\University\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\University\\Delete.cshtml",
+              "ToolTip": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Views\\University\\Delete.cshtml",
+              "RelativeToolTip": "Views\\University\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T22:29:00.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Views\\University\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\University\\Create.cshtml",
+              "ToolTip": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Views\\University\\Create.cshtml",
+              "RelativeToolTip": "Views\\University\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T22:35:34.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Details.cshtml",
               "DocumentMoniker": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Views\\Student\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Student\\Details.cshtml",
               "ToolTip": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Views\\Student\\Details.cshtml",
               "RelativeToolTip": "Views\\Student\\Details.cshtml",
-              "ViewState": "AgIAADYAAAAAAAAAAAAswEsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAswAkAAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-02T10:10:00.206Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Views\\Student\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\Create.cshtml",
+              "ToolTip": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Views\\Student\\Create.cshtml",
+              "RelativeToolTip": "Views\\Student\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T10:10:54.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -195,25 +313,11 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAGUAAAAAAAAAAAAswHIAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-02T10:34:32.564Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-02T10:34:32.564Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Views\\Student\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Student\\Edit.cshtml",
-              "ToolTip": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Views\\Student\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Student\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-02T10:11:32.866Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 17,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -221,12 +325,11 @@
               "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-14T22:49:40.633Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T22:49:40.633Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 15,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -234,12 +337,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T10:17:10.196Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-02T10:17:10.196Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "UniversityDetailsViewModel.cs",
               "DocumentMoniker": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\ViewModels\\UniversityDetailsViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\UniversityDetailsViewModel.cs",
@@ -247,38 +349,11 @@
               "RelativeToolTip": "ViewModels\\UniversityDetailsViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T22:25:53.49Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T22:25:53.49Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Views\\University\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\University\\Details.cshtml",
-              "ToolTip": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Views\\University\\Details.cshtml",
-              "RelativeToolTip": "Views\\University\\Details.cshtml",
-              "ViewState": "AgIAAA4AAAAAAAAAAADwvxgAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-14T22:26:21.839Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Views\\University\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\University\\Create.cshtml",
-              "ToolTip": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Views\\University\\Create.cshtml",
-              "RelativeToolTip": "Views\\University\\Create.cshtml",
-              "ViewState": "AgIAACQAAAAAAAAAAADwvz0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-14T22:35:34.394Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 16,
               "Title": "Error.cshtml",
               "DocumentMoniker": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
@@ -286,38 +361,11 @@
               "RelativeToolTip": "Views\\Shared\\Error.cshtml",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-14T22:49:51.061Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T22:49:51.061Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Views\\University\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\University\\Delete.cshtml",
-              "ToolTip": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Views\\University\\Delete.cshtml",
-              "RelativeToolTip": "Views\\University\\Delete.cshtml",
-              "ViewState": "AgIAACYAAAAAAAAAAADwvz8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-14T22:29:00.313Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Views\\University\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\University\\Edit.cshtml",
-              "ToolTip": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Views\\University\\Edit.cshtml",
-              "RelativeToolTip": "Views\\University\\Edit.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAADwv0AAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-14T22:37:55.07Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "IStudentRepository.cs",
               "DocumentMoniker": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Models\\Repositories\\IStudentRepository.cs",
               "RelativeDocumentMoniker": "Models\\Repositories\\IStudentRepository.cs",
@@ -325,12 +373,11 @@
               "RelativeToolTip": "Models\\Repositories\\IStudentRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T21:43:04.098Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T21:43:04.098Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "IUniversityRepository.cs",
               "DocumentMoniker": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Models\\Repositories\\IUniversityRepository.cs",
               "RelativeDocumentMoniker": "Models\\Repositories\\IUniversityRepository.cs",
@@ -338,21 +385,7 @@
               "RelativeToolTip": "Models\\Repositories\\IUniversityRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T21:42:08.547Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "StudentRepositoryImp.cs",
-              "DocumentMoniker": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Models\\Repositories\\StudentRepositoryImp.cs",
-              "RelativeDocumentMoniker": "Models\\Repositories\\StudentRepositoryImp.cs",
-              "ToolTip": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Models\\Repositories\\StudentRepositoryImp.cs",
-              "RelativeToolTip": "Models\\Repositories\\StudentRepositoryImp.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAwwDQAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T21:40:49.822Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T21:42:08.547Z"
             },
             {
               "$type": "Document",
@@ -364,34 +397,7 @@
               "RelativeToolTip": "Controllers\\AccountController.cs",
               "ViewState": "AgIAAEsAAAAAAAAAAAAowF4AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T10:31:03.626Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Student.cs",
-              "DocumentMoniker": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Models\\Student.cs",
-              "RelativeDocumentMoniker": "Models\\Student.cs",
-              "ToolTip": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Models\\Student.cs",
-              "RelativeToolTip": "Models\\Student.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBAAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T21:46:21.182Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "UniversityController.cs",
-              "DocumentMoniker": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Controllers\\UniversityController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UniversityController.cs",
-              "ToolTip": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Controllers\\UniversityController.cs",
-              "RelativeToolTip": "Controllers\\UniversityController.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAgwB0AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T11:02:23.989Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-02T10:31:03.626Z"
             },
             {
               "$type": "Document",
@@ -403,21 +409,7 @@
               "RelativeToolTip": "Views\\Account\\Login.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-02T10:52:37.702Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "StudentController.cs",
-              "DocumentMoniker": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Controllers\\StudentController.cs",
-              "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
-              "ToolTip": "E:\\Sof\\Sofiene\\3GL\\dotNET\\projects\\School\\Controllers\\StudentController.cs",
-              "RelativeToolTip": "Controllers\\StudentController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T10:05:30.913Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-02T10:52:37.702Z"
             },
             {
               "$type": "Document",
@@ -429,8 +421,7 @@
               "RelativeToolTip": "ViewModels\\LoginViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T10:51:30.679Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-02T10:51:30.679Z"
             },
             {
               "$type": "Document",
@@ -442,8 +433,7 @@
               "RelativeToolTip": "Views\\Account\\Register.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-02T10:32:51.759Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-02T10:32:51.759Z"
             },
             {
               "$type": "Document",
@@ -455,8 +445,7 @@
               "RelativeToolTip": "Config\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T10:14:45.213Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-02T10:14:45.213Z"
             },
             {
               "$type": "Document",
@@ -468,8 +457,7 @@
               "RelativeToolTip": "ViewModels\\RegisterViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T10:20:04.792Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-02T10:20:04.792Z"
             }
           ]
         }

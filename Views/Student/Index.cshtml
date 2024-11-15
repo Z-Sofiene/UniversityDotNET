@@ -7,7 +7,7 @@
 <!-- Breadcrumb Navigation -->
 <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="@Url.Action("Index", "Home")">Home</a></li>
+        <li class="breadcrumb-item"><a href="@Url.Action("Index", "University")">University</a></li>
         <li class="breadcrumb-item active" aria-current="page">Student List</li>
     </ol>
 </nav>
@@ -25,13 +25,15 @@
                 <i class="fa-solid fa-plus me-2"></i>Create New Student
             </a>
         </div>
-        <div class="d-flex align-items-center">
-            <input type="text" class="form-control me-2" placeholder="Search students..." id="searchInput" aria-label="Search students">
-            <button class="btn btn-primary" id="searchButton" data-bs-toggle="tooltip" title="Search student by name">
-                <i class="fa-solid fa-search"></i> Search
-            </button>
-        </div>
+        <form class="form-inline my-2 my-lg-0" asp-action="Search" asp-controller="Student">
+            <p>
+                <input size="30" placeholder="tapez un Nom" type="search" name="name" />
+                <select asp-items="ViewBag.UniversityID" name="universityID" size=1.5 style="width:300px ; height:30px"></select>
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fa-solid fa-search"></i> Search</button>
+            </p>
+        </form>
     </div>
+    
 
     <!-- Student Table -->
     <table class="table table-striped table-hover table-bordered">

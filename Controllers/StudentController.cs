@@ -65,6 +65,20 @@ namespace School.Controllers
         }
 
 
+        public ActionResult Search(string name, int? UniversityID)
+
+        {
+            var result = StudentRepository.GetAll();
+            if (!string.IsNullOrEmpty(name))
+                result = StudentRepository.FindByName(name);
+            else
+            if (UniversityID != null)
+                result = StudentRepository.GetStudentsByUniversityID(UniversityID);
+            ViewBag.UniversityID = new SelectList(UniversityRepository.GetAll(), "UniversityID", "UniversityName");
+            return View("Index", result);
+        }
+
+
 
         public ActionResult Edit(int id)
         {

@@ -14,6 +14,7 @@ namespace School.Models.Repositories
         {
             return context.Universities.OrderBy(s => s.UniversityName).ToList();
         }
+
         public University GetById(int id)
         {
             return context.Universities.Find(id);
