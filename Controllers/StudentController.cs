@@ -22,11 +22,30 @@ namespace School.Controllers
         }
 
         // GET: Student
-        public ActionResult Index()
+        public ActionResult Index(int? universityID)
         {
-            var universities = StudentRepository.GetAll();
-            return View(universities);
+            // Fetch the list of universities to populate the dropdown
+            ViewBag.UniversityID = new SelectList(UniversityRepository.GetAll(), "UniversityID", "UniversityName");
+
+            // Fetch the list of students from the repository
+            var studentsQuery = StudentRepository.GetAll().AsQueryable();
+
+            // If a university ID is provided, filter the students by that university
+            if (universityID.HasValue)
+            {
+                studentsQuery = studentsQuery.Where(s => s.UniversityID == universityID);
+            }
+
+            // Create the ViewModel and pass the filtered list of students and selected UniversityID
+            var viewModel = new StudentListViewModel
+            {
+                Students = studentsQuery.ToList(),
+                UniversityID = universityID
+            };
+
+            return View(viewModel);
         }
+
 
         // GET: Student/Details/{id}
         public ActionResult Details(int id)
@@ -66,16 +85,34 @@ namespace School.Controllers
 
 
         public ActionResult Search(string name, int? UniversityID)
-
         {
-            var result = StudentRepository.GetAll();
+            // Fetch the list of students from the repository
+            var studentsQuery = StudentRepository.GetAll().AsQueryable();
+
+            // Filter by name if provided
             if (!string.IsNullOrEmpty(name))
-                result = StudentRepository.FindByName(name);
-            else
-            if (UniversityID != null)
-                result = StudentRepository.GetStudentsByUniversityID(UniversityID);
-            ViewBag.UniversityID = new SelectList(UniversityRepository.GetAll(), "UniversityID", "UniversityName");
-            return View("Index", result);
+            {
+                studentsQuery = studentsQuery.Where(s => s.StudentName.Contains(name)); // Filter by student name
+            }
+
+            // Filter by UniversityID if provided
+            if (UniversityID.HasValue)
+            {
+                studentsQuery = studentsQuery.Where(s => s.UniversityID == UniversityID);
+            }
+
+            // Create the ViewModel and pass the filtered list of students
+            var viewModel = new StudentListViewModel
+            {
+                Students = studentsQuery.ToList(),
+                UniversityID = UniversityID
+            };
+
+            // Populate the ViewBag for the University dropdown
+            ViewBag.UniversityID = new SelectList(UniversityRepository.GetAll(), "UniversityID", "UniversityName", UniversityID);
+
+            // Return the filtered list of students in the Index view
+            return View("Index", viewModel);
         }
 
 

@@ -1,4 +1,4 @@
-﻿@model IEnumerable<School.Models.Student>
+﻿@model School.Models.StudentListViewModel
 
 @{
     ViewData["Title"] = "Student List";
@@ -25,13 +25,23 @@
                 <i class="fa-solid fa-plus me-2"></i>Create New Student
             </a>
         </div>
-        <form class="form-inline my-2 my-lg-0" asp-action="Search" asp-controller="Student">
-            <p>
-                <input size="30" placeholder="tapez un Nom" type="search" name="name" />
-                <select asp-items="ViewBag.UniversityID" name="universityID" size=1.5 style="width:300px ; height:30px"></select>
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fa-solid fa-search"></i> Search</button>
-            </p>
+        <form class="form-inline my-2 my-lg-0" asp-action="Search" asp-controller="Student" method="get">
+            <div class="form-group">
+                <label asp-for="UniversityID" class="control-label font-weight-bold"></label>
+                <select asp-for="UniversityID" class="form-control" asp-items="ViewBag.UniversityID">
+                    <option value="">Select a University</option>
+                </select>
+                <span asp-validation-for="UniversityID" class="text-danger"></span>
+            </div>
+
+            <!-- New Name input field -->
+            <div class="form-group ml-2">
+                <input type="search" name="name" class="form-control" placeholder="Enter Name" size="30" />
+            </div>
+
+            <button type="submit" class="btn btn-primary">Search</button>
         </form>
+
     </div>
     
 
@@ -40,38 +50,38 @@
         <thead class="table-dark">
             <tr>
                 <th>
-                    @Html.DisplayNameFor(model => model.StudentName)
+                    @Html.DisplayNameFor(model => model.Students.FirstOrDefault().StudentName)
                 </th>
                 <th>
-                    @Html.DisplayNameFor(model => model.Age)
+                    @Html.DisplayNameFor(model => model.Students.FirstOrDefault().Age)
                 </th>
                 <th>
-                    @Html.DisplayNameFor(model => model.BirthDate)
+                    @Html.DisplayNameFor(model => model.Students.FirstOrDefault().BirthDate)
                 </th>
                 <th class="text-center">Actions</th>
             </tr>
         </thead>
         <tbody>
-            @foreach (var item in Model)
+            @foreach (var student in Model.Students)
             {
                 <tr>
                     <td>
-                        @Html.DisplayFor(modelItem => item.StudentName)
+                        @Html.DisplayFor(modelItem => student.StudentName)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.Age)
+                        @Html.DisplayFor(modelItem => student.Age)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.BirthDate)
+                        @Html.DisplayFor(modelItem => student.BirthDate)
                     </td>
                     <td class="text-center">
-                        <a asp-action="Edit" asp-route-id="@item.StudentId" class="btn btn-warning btn-sm" data-bs-toggle="tooltip" title="Edit student details">
+                        <a asp-action="Edit" asp-route-id="@student.StudentId" class="btn btn-warning btn-sm" data-bs-toggle="tooltip" title="Edit student details">
                             <i class="fa-solid fa-pen"></i> Edit
                         </a>
-                        <a asp-action="Details" asp-route-id="@item.StudentId" class="btn btn-info btn-sm" data-bs-toggle="tooltip" title="View student details">
+                        <a asp-action="Details" asp-route-id="@student.StudentId" class="btn btn-info btn-sm" data-bs-toggle="tooltip" title="View student details">
                             <i class="fa-solid fa-eye"></i> Details
                         </a>
-                        <a asp-action="Delete" asp-route-id="@item.StudentId" class="btn btn-danger btn-sm" data-bs-toggle="tooltip" title="Delete student">
+                        <a asp-action="Delete" asp-route-id="@student.StudentId" class="btn btn-danger btn-sm" data-bs-toggle="tooltip" title="Delete student">
                             <i class="fa-solid fa-trash"></i> Delete
                         </a>
                     </td>
